@@ -1,42 +1,6 @@
 # python-ai-learning
 我的Python和AI学习记录
-git config --global user.name "您的名字"
-git config --global user.email "您的邮箱"
-git config --list
-克隆仓库到本地
-# 1. 创建工作目录
-cd ~/Desktop
-mkdir ai-projects
-cd ai-projects
 
-# 2. 克隆仓库（使用HTTPS方式）
-git clone https://github.com/您的用户名/python-ai-learning.git
-
-# 3. 进入仓库目录
-cd python-ai-learning
-
-# 4. 查看仓库状态
-git status
-# 1. 查看当前状态（应显示hello.py为未跟踪文件）
-git status
-
-# 2. 添加文件到暂存区
-git add hello.py
-
-# 或添加所有文件
-git add .
-
-# 3. 查看暂存区状态（文件变绿）
-git status
-
-# 4. 提交到本地仓库
-git commit -m "添加第一个Python程序Untitled-1.py"
-
-# 5. 推送到GitHub
-git push origin main
-git push origin master
-
-# 6. 输入GitHub用户名和密码（或使用Personal Access Token）
 # Python AI学习仓库
 
 ## 项目介绍
