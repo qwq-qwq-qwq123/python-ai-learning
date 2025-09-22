@@ -205,3 +205,54 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python编译文件
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志文件
+*.log
+logs/
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# 个人配置
+config.ini
+secrets.txt
+*.env
+
+# 数据文件（如果太大）
+data/
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# 临时文件
+tmp/
+temp/
+*.tmp
